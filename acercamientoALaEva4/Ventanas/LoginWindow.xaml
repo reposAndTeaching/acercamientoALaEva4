@@ -1,0 +1,18 @@
+﻿<Window x:Class="acercamientoALaEva4.Ventanas.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:acercamientoALaEva4.Ventanas"
+        mc:Ignorable="d"
+        Title="Autentificación" Height="400" Width="320">
+    <Grid>
+        <Label x:Name="labelAuth" Content="Autentificación" HorizontalAlignment="Center" Margin="0,45,0,0" VerticalAlignment="Top" Width="158" FontSize="22"/>
+        <TextBox x:Name="textBoxUser" HorizontalAlignment="Left" Margin="95,120,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="144"/>
+        <Label x:Name="labelUser" Content="Usuario: " HorizontalAlignment="Left" Margin="67,89,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="labelPass" Content="Contraseña: " HorizontalAlignment="Left" Margin="67,166,0,0" VerticalAlignment="Top"/>
+        <PasswordBox x:Name="passwordBoxPass" HorizontalAlignment="Left" Margin="95,202,0,0" VerticalAlignment="Top" Width="144"/>
+        <Button x:Name="buttonLogin" Content="Ingresar" HorizontalAlignment="Left" Margin="67,260,0,0" VerticalAlignment="Top" Width="172" Click="buttonLogin_Click"/>
+
+    </Grid>
+</Window>
